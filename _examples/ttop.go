@@ -19,7 +19,7 @@ import (
 	"strings"
 	"time"
 
-	ui "github.com/gizak/termui"
+	ui "github.com/killingspark/termui"
 )
 
 const statFilePath = "/proc/stat"

@@ -1,4 +1,4 @@
-module github.com/gizak/termui
+module github.com/killingspark/termui
 
 require (
 	github.com/davecgh/go-spew v1.1.0

@@ -185,7 +185,7 @@ func (r *Row) Buffer() Buffer {
 // Grid implements 12 columns system.
 // A simple example:
 /*
-   import ui "github.com/gizak/termui"
+   import ui "github.com/killingspark/termui"
    // init and create widgets...
 
    // build

@@ -10,7 +10,7 @@ import (
 	"math"
 	"time"
 
-	ui "github.com/gizak/termui"
+	ui "github.com/killingspark/termui"
 )
 
 func main() {
@@ -35,7 +35,7 @@ func main() {
 		}
 	}
 
-	listData := []string{"[0] gizak/termui", "[1] editbox.go", "[2] interrupt.go", "[3] keyboard.go", "[4] output.go", "[5] random_out.go", "[6] dashboard.go", "[7] nsf/termbox-go"}
+	listData := []string{"[0] killingspark/termui", "[1] editbox.go", "[2] interrupt.go", "[3] keyboard.go", "[4] output.go", "[5] random_out.go", "[6] dashboard.go", "[7] nsf/termbox-go"}
 
 	l := ui.NewList()
 	l.Items = listData

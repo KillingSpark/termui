@@ -1,6 +1,6 @@
 # termui
 
-[![Build Status](https://travis-ci.org/gizak/termui.svg?branch=master)](https://travis-ci.org/gizak/termui) [![Doc Status](https://godoc.org/github.com/gizak/termui?status.png)](https://godoc.org/github.com/gizak/termui)
+[![Build Status](https://travis-ci.org/killingspark/termui.svg?branch=master)](https://travis-ci.org/killingspark/termui) [![Doc Status](https://godoc.org/github.com/killingspark/termui?status.png)](https://godoc.org/github.com/killingspark/termui)
 
 <img src="./_examples/dashboard.gif" alt="demo cast under osx 10.10; Terminal.app; Menlo Regular 12pt.)" width="100%">
 
@@ -13,7 +13,7 @@
 Installing from the master branch is recommended:
 
 ```bash
-go get -u github.com/gizak/termui@master
+go get -u github.com/killingspark/termui@master
 ```
 
 ## Usage
@@ -23,7 +23,7 @@ go get -u github.com/gizak/termui@master
 ```go
 package main
 
-import ui "github.com/gizak/termui"
+import ui "github.com/killingspark/termui"
 
 func main() {
 	err := ui.Init()
@@ -49,14 +49,14 @@ func main() {
 
 Click image to see the corresponding demo codes.
 
-[<img src="./_examples/barchart.png" alt="barchart" type="image/png" width="45%">](https://github.com/gizak/termui/blob/master/_examples/barchart.go)
-[<img src="./_examples/gauge.png" alt="gauge" type="image/png" width="45%">](https://github.com/gizak/termui/blob/master/_examples/gauge.go)
-[<img src="./_examples/linechart.png" alt="linechart" type="image/png" width="45%">](https://github.com/gizak/termui/blob/master/_examples/linechart.go)
-[<img src="./_examples/list.png" alt="list" type="image/png" width="45%">](https://github.com/gizak/termui/blob/master/_examples/list.go)
-[<img src="./_examples/paragraph.png" alt="paragraph" type="image/png" width="45%">](https://github.com/gizak/termui/blob/master/_examples/par.go)
-[<img src="./_examples/sparklines.png" alt="sparklines" type="image/png" width="45%">](https://github.com/gizak/termui/blob/master/_examples/sparklines.go)
-[<img src="./_examples/stackedbarchart.png" alt="stackedbarchart" type="image/png" width="45%">](https://github.com/gizak/termui/blob/master/_examples/mbarchart.go)
-[<img src="./_examples/table.png" alt="table" type="image/png" width="45%">](https://github.com/gizak/termui/blob/master/_examples/table.go)
+[<img src="./_examples/barchart.png" alt="barchart" type="image/png" width="45%">](https://github.com/killingspark/termui/blob/master/_examples/barchart.go)
+[<img src="./_examples/gauge.png" alt="gauge" type="image/png" width="45%">](https://github.com/killingspark/termui/blob/master/_examples/gauge.go)
+[<img src="./_examples/linechart.png" alt="linechart" type="image/png" width="45%">](https://github.com/killingspark/termui/blob/master/_examples/linechart.go)
+[<img src="./_examples/list.png" alt="list" type="image/png" width="45%">](https://github.com/killingspark/termui/blob/master/_examples/list.go)
+[<img src="./_examples/paragraph.png" alt="paragraph" type="image/png" width="45%">](https://github.com/killingspark/termui/blob/master/_examples/par.go)
+[<img src="./_examples/sparklines.png" alt="sparklines" type="image/png" width="45%">](https://github.com/killingspark/termui/blob/master/_examples/sparklines.go)
+[<img src="./_examples/stackedbarchart.png" alt="stackedbarchart" type="image/png" width="45%">](https://github.com/killingspark/termui/blob/master/_examples/mbarchart.go)
+[<img src="./_examples/table.png" alt="table" type="image/png" width="45%">](https://github.com/killingspark/termui/blob/master/_examples/table.go)
 
 ### Examples
 
@@ -64,8 +64,8 @@ Examples can be found in [\_examples](./_examples). Run with `go run _examples/.
 
 ## Documentation
 
-- [godoc](https://godoc.org/github.com/gizak/termui) for code documentation
-- [wiki](https://github.com/gizak/termui/wiki) for general information
+- [godoc](https://godoc.org/github.com/killingspark/termui) for code documentation
+- [wiki](https://github.com/killingspark/termui/wiki) for general information
 
 ## Uses
 

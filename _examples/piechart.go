@@ -8,7 +8,7 @@ import (
 	"math/rand"
 	"time"
 
-	ui "github.com/gizak/termui"
+	ui "github.com/killingspark/termui"
 )
 
 func main() {

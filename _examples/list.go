@@ -6,7 +6,7 @@
 
 package main
 
-import ui "github.com/gizak/termui"
+import ui "github.com/killingspark/termui"
 
 func main() {
 	err := ui.Init()
@@ -16,7 +16,7 @@ func main() {
 	defer ui.Close()
 
 	strs := []string{
-		"[0] github.com/gizak/termui",
+		"[0] github.com/killingspark/termui",
 		"[1] [你好，世界](fg-blue)",
 		"[2] [こんにちは世界](fg-red)",
 		"[3] [color output](fg-white,bg-green)",

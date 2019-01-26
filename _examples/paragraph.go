@@ -6,7 +6,7 @@
 
 package main
 
-import ui "github.com/gizak/termui"
+import ui "github.com/killingspark/termui"
 
 func main() {
 	err := ui.Init()
